@@ -1,0 +1,57 @@
+/* colors
+#DAA520 Yellow
+#00008B Blue
+#FFFAFA White
+#006400 green
+*/
+
+*{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 28vh 120vh 10vh;
+    grid-template-areas:    'header '
+                            'main '
+                            'footer';
+}
+
+header{
+    grid-area: header;
+    background-color:#DAA520;
+}
+
+main{
+    grid-area: main;
+    
+}
+
+footer{
+    grid-area: footer;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+header a{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #00008B;
+   
+}
+
+header a:hover{
+    color:#FFFAFA;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+
