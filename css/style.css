@@ -8,10 +8,13 @@
 *{
     margin: 0;
 }
+body{
+    background-color:#FFFAFA ;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 28vh 120vh 10vh;
+    grid-template-rows: 28vh 100vh 15vh;
     grid-template-areas:    'header '
                             'main '
                             'footer';
@@ -29,6 +32,7 @@ main{
 
 footer{
     grid-area: footer;
+    background-color:#00008B ;
 }
 
 .logo{
@@ -54,4 +58,28 @@ header a:hover{
     justify-content: center;
 }
 
+.textoPrin{
+    margin: auto;
+    width: 960px;
 
+}
+.titulo{
+    margin-top: 50px;
+    text-align: center;
+}
+.conteudo{
+    margin-top: 50px;
+    
+}
+
+.imgPrin{
+    float: left;
+}
+
+.text1{
+    margin-left: 10px;
+    
+}
+main p{
+    font-size: 16px;
+}
