@@ -22,7 +22,7 @@ body{
 
 header{
     grid-area: header;
-    background-color:#DAA520;
+    background-color:#040020;
 }
 
 main{
@@ -32,7 +32,7 @@ main{
 
 footer{
     grid-area: footer;
-    background-color:#00008B ;
+    background-color:#040020;
 }
 
 .logo{
@@ -45,7 +45,7 @@ header a{
     margin-left: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: #00008B;
+    color: #e1ff00;
    
 }
 
