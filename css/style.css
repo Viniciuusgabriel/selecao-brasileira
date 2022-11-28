@@ -14,7 +14,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 28vh 100vh 15vh;
+    grid-template-rows: 30vh 130vh 15vh;
     grid-template-areas:    'header '
                             'main '
                             'footer';
@@ -36,13 +36,13 @@ footer{
 }
 
 .logo{
-    display: flex;
-    justify-content: center;
+    
 }
 
 header a{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -100px;
     text-decoration: none;
     font-size: 20px;
     color: #e1ff00;
@@ -54,6 +54,7 @@ header a:hover{
 }
 
 .links{
+    margin-left: 150px;
     display: flex;
     justify-content: center;
 }
